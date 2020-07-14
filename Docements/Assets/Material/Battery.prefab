@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1501642737429698}
+  m_IsPrefabParent: 1
+--- !u!1 &1376809732123914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4153485158525306}
+  m_Layer: 0
+  m_Name: BatteryShoot1
+  m_TagString: BatteryShoot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1501642737429698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4146923746121720}
+  - component: {fileID: 33980510447772804}
+  - component: {fileID: 23074478364783488}
+  - component: {fileID: 65607519997898924}
+  - component: {fileID: 114623248962359698}
+  m_Layer: 0
+  m_Name: Battery
+  m_TagString: Battery
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1991230462635196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4725787372975436}
+  m_Layer: 0
+  m_Name: BatteryPoint1
+  m_TagString: BatteryPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4146923746121720
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501642737429698}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: 1.4, z: 3.5}
+  m_LocalScale: {x: 1.4546293, y: 1.4546299, z: 1.4546299}
+  m_Children:
+  - {fileID: 4153485158525306}
+  - {fileID: 4725787372975436}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4153485158525306
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376809732123914}
+  m_LocalRotation: {x: -0.3208499, y: -0, z: -0, w: 0.9471301}
+  m_LocalPosition: {x: 0, y: 0.35, z: 0.78}
+  m_LocalScale: {x: 0.6874604, y: 0.6874601, z: 0.6874601}
+  m_Children: []
+  m_Father: {fileID: 4146923746121720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -37.429, y: 0, z: 0}
+--- !u!4 &4725787372975436
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1991230462635196}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.16713944, y: -0.32020742, z: -0.42838052}
+  m_LocalScale: {x: 0.6874604, y: 0.6874601, z: 0.6874601}
+  m_Children: []
+  m_Father: {fileID: 4146923746121720}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23074478364783488
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501642737429698}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 7682680859d2dc04f81aa8be21ba6b07, type: 3}
+  - {fileID: 2100002, guid: 7682680859d2dc04f81aa8be21ba6b07, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33980510447772804
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501642737429698}
+  m_Mesh: {fileID: 4300000, guid: 7682680859d2dc04f81aa8be21ba6b07, type: 3}
+--- !u!65 &65607519997898924
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501642737429698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3, z: 0.8}
+  m_Center: {x: 0.000000029802326, y: 0, z: 0}
+--- !u!114 &114623248962359698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501642737429698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79785f96fa716cc4e9dbaddf35a07543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chick: {fileID: 1510906777527652, guid: 5babf740151386641ad5d6a474301683, type: 2}
+  BatteryShoot: {fileID: 1376809732123914}
+  batterypoint: {fileID: 4725787372975436}
+  wildfire: {fileID: 100000, guid: 2df412fdd6ae9b441b1caaeead9ba329, type: 2}
+  Fire: {fileID: 0}
+  Boom: {fileID: 8300000, guid: 03355bee13e962b4da54b50548313c9f, type: 3}
+  Child_BatteryShoot_Name: []
+  Child_BatteryPoint_Name: {fileID: 0}
